@@ -5,7 +5,7 @@ if [ -f .env ]; then
   set -a && source .env && set +a
 fi
 
-export FINGERPRINT="VOLVO_S60_RECHARGE"
+
 export SKIP_FW_QUERY=1
 
 # Set Konik API endpoints if USE_KONIK is enabled
